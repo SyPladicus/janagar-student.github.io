@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Jan Agar Barotilla | IT Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Montserrat:wght@300;400&family=PT+Mono&family=Playfair+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+</head>
+<body>
+
+    <section id="home"></section>
+    
+<header>
+    <label id="dark-change"></label>
+</header>
+
+<div class="intro">
+    <h1 class="logo-header">
+        <span class="logo">loa</span><span class="logo">ding.</span>
+    </h1>
+        </div>
+    
+
+<script src="app.js"></script>
+
+
+    <style>
+        body{
+         background-color: #f1ece5;
+        }
+    </style>
+<div>
+    <h1 class="it-stud">
+        Jan Agar Barotilla 
+    </h1>
+
+    <h2 class="soft">
+        Aspiring <b class="sof" > Software Engineer  </b> | Grade 11 Student
+    </h2>
+    <img class="bg" src="img/bg.jpg">
+</div>
+
+<div>
+    <p class="parag" >
+   An introverted teenager who, at an early age<br>enjoys reading books and online games, watching<br>anime and youtube, and learning to code.
+    </p>
+</div>
+
+<div>
+    <h1 class="css" >CSS</h1>
+    <h1 class="java" >JAVA</h1>
+    <h1 class="js" >JAVASCRIPT</h1>
+    <h1 class="cplus" >C++</h1>
+    <h1 class="html" >HTML</h1>
+</div>
+
+
+<div class="sidebar">
+    <ul>
+        <li><a href="#home" class="expi" onclick="scrollToSection('home')" >Home</a></li>
+        <li><a href="#photo" class="about-me" onclick="scrollToSection('photo')">Photo Gallery</a></li>
+        <li><a href="#community" class="socialmedia" onclick="scrollToSection('community')">Community</a></li>       
+    </ul>
+</div>
+
+
+
+<div class="social-media">
+    <a target="_blank" href="https://www.facebook.com/y0baka">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a target="_blank" href="https://www.tiktok.com/@sypladicus">
+        <i class="fab fa-tiktok"></i>
+    </a>
+    <a target="_blank" href="https://www.instagram.com/gelatinous_agar/">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a target="_blank" href="https://github.com/ph-whoami">
+        <i class="fab fa-github"></i>
+    </a>
+</div>
+
+
+<button id="toggle-sidebar"><i class="menu">=</i></button>
+
+<script>
+    const toggleBtn = document.getElementById('toggle-sidebar');
+const sidebar = document.querySelector('.sidebar');
+
+toggleBtn.addEventListener('click', () => {
+  sidebar.classList.toggle('active');
+  if (sidebar.classList.contains('active')) {
+    toggleBtn.innerText = 'X';  
+  } else {
+    toggleBtn.innerText = '☰';
+  }
+});
+</script>
+
+
+
+<section id="photo">
+
+    <div class="cert">
+<h1> &ndash; Photo Gallery </h1>
+
+
+<div class="container">
+    <div class="box">
+        <img src="img/pic1.png">
+    </div>
+    <div class="box">
+        <img src="img/pic2.png">
+    </div>
+    <div class="box">
+        <img src="img/pic3.png">
+    </div>
+</div>
+<div class="container">
+    <div class="box">
+        <img src="img/pic4.jpg">
+    </div>
+    <div class="box">
+        <img src="img/pic5.jpg">
+    </div>
+    <div class="box">
+        <img src="img/pic6.png">
+    </div>
+</div>
+
+
+
+</section>
+
+
+<section id="community">
+ 
+
+
+</section>
+
+<section id="comments">
+    <div class="testimonials-container">
+        <h2>Community</h2>
+        <div class="testimonial-card">
+          <img src="img/jul.png" alt="Client's profile picture">
+          <div class="testimonial-text">
+            <p>"I really like this website. Good job, Agar! More of this pleasee🤩"</p>
+            <h3>Julianne Gabas</h3>
+            <span>Grade 11 student | STEM </span>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
