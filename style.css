@@ -83,7 +83,7 @@ header h4 {
         height: auto;
     }
   }
-@media (max-width: 390px) {
+@media (max-width: 430px) {
     .it-stud{
     font-size: 30px !important;
     margin-top: 100px;
