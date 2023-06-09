@@ -85,7 +85,7 @@ header h4 {
   }
 @media (max-width: 430px) {
     .bg {
-       left: 35%;
+       left: 33%;
     }
     .it-stud{
     font-size: 30px !important;
@@ -95,16 +95,16 @@ header h4 {
     .soft{
         margin-top: 75px !important;
         font-size: 25px !important;
-       left: 14% !important;
+        left: 12% !important;
     }
     .social-media {
         margin-top: 180px;
-        left: 14% !important;
+        left: 12% !important;
         width: 0px !important;
     }
     .parag {
         margin-top: 140px;
-        left: 14% !important;
+        left: 12% !important;
         font-size: 20px !important;
     }
     .cert h1{
