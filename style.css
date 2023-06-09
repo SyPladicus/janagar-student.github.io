@@ -83,14 +83,14 @@ header h4 {
         height: auto;
     }
   }
-@media (max-width: 390px) {
+@media (max-width: 430px) {
     .bg {
        left: 35%;
     }
     .it-stud{
     font-size: 30px !important;
-    margin-top: 100px;
-    left: 14% !important;
+    margin-top: 115px;
+    left: 15.6% !important;
     }
     .soft{
         margin-top: 75px !important;
@@ -99,10 +99,11 @@ header h4 {
     }
     .social-media {
         margin-top: 180px;
-        left: 0px !important;
+        left: 16% !important;
+        width: 0px !important;
     }
     .parag {
-        margin-top: 150px;
+        margin-top: 120px;
         left: 14% !important;
         font-size: 20px !important;
     }
