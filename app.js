@@ -37,3 +37,38 @@ function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
   section.scrollIntoView({ behavior: 'smooth' });
 }
+
+/** reveal element effects */
+  function revealElementsOnScroll() {
+    const elements = document.querySelectorAll('.reveal');
+
+    elements.forEach((element) => {
+      if (
+        isElementInViewport(element) &&
+        !element.classList.contains('show')
+      ) {
+        element.classList.add('show');
+      } else if (
+        !isElementInViewport(element) &&
+        element.classList.contains('show')
+      ) {
+        element.classList.remove('show');
+      }
+    });
+  }
+
+  function isElementInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <=
+        (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  window.addEventListener('scroll', revealElementsOnScroll);
+  window.addEventListener('DOMContentLoaded', revealElementsOnScroll);
+
