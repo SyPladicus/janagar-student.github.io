@@ -63,6 +63,9 @@ header h4 {
       .cplus{
        display: none;
       }
+      .python{
+        display: none;
+      }
       .social-media {
         margin-top: 300px;
         margin-left: 20px;
@@ -244,6 +247,17 @@ header h4 {
     padding: 5px;
     right: 240px;
     top: 470px;
+    color: black;
+    border-radius: 200px;
+    font-family: cursive;
+    background-color: white;
+}
+.python{
+    position: absolute;
+    border: 5px solid grey;
+    padding: 5px;
+    right: 20px;
+    top: 260px;
     color: black;
     border-radius: 200px;
     font-family: cursive;
@@ -637,7 +651,7 @@ ul li:hover a{
             display: flex;
             position: relative;
             top: 420px;
-            left: 10%;
+            left: 9%;
         }
         
         .social-media a {
@@ -702,10 +716,8 @@ ul li:hover a{
              -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .fa-gmail {
-              background-image: linear-gradient(to right, #EA4335, #D62D20);
-             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .fa-youtube{
+            color: #ff0000;
         }
    
         
